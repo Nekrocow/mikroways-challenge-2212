@@ -1,0 +1,24 @@
+{
+  "name": "mikroways-challenge-2212",
+  "version": "1.0.0",
+  "description": "Exercises for Mikroways' 2022 challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nekrocow/mikroways-challenge-2212.git"
+  },
+  "keywords": [
+    "mikroways",
+    "challenge",
+    "nekrocow"
+  ],
+  "author": "Manuel A. Kloster",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nekrocow/mikroways-challenge-2212/issues"
+  },
+  "homepage": "https://github.com/Nekrocow/mikroways-challenge-2212#readme"
+}
