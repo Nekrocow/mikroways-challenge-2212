@@ -1,0 +1,178 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Manuel Kloster",
+    "label": "Fullstack Developer",
+    "email": "kloster.am@gmail.com",
+    "url": "https://github.com/Nekrocow/",
+    "summary": "I am a Fullstack developer with an orientation to Backend and certified C2 level English. I am experienced with NodeJS (Express), Postgres (Sequelize), MongoDB, React and Redux. I have worked in five projects, mostly as a Node developer. I am Web 3.0 enthusiast!",
+    "location": {
+      "postalCode": "E3100",
+      "city": "Paraná",
+      "countryCode": "AR",
+      "region": "Entre Ríos"
+    },
+    "profiles": [
+      {
+        "network": "Linkedin",
+        "username": "Manuel Andrés Kloster",
+        "url": "https://www.linkedin.com/in/manuel-kloster/"
+      },      
+      {
+        "network": "GitHub",
+        "username": "Nekrocow",
+        "url": "https://github.com/Nekrocow"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "NodeJS Backend developer / PERN Fullstack",
+      "startDate": "2022-11-11",
+      "endDate": "2022-12-16",
+      "summary": "Developed a restaurant app that features: admin user type; ordering menu; printable orders; item search and filtering. Techs used were: Node.js, Express, JSON Web Token, MongoDB, MongoDB Atlas Database and Railway. Repository: https://github.com/Nekrocow/NoCountry-ChimekYoonRestaurantApp",
+      "highlights": [
+        "App designed for ecuatorian client Chimek Yoon."
+      ]
+    },
+    {
+      "name": "NodeJS Backend developer",
+      "startDate": "2022-09-19",
+      "endDate": "2022-11-15",
+      "summary": "Working as part of a team of 7, developed StayUp, an app for recreational group activities coordination. Also organized Trello and Scrum workflow and presented the project on Demo Day. Features include: guest, registered and admin user types; shop and user reviews; QA to shop owners; chat; shop registration, deletion, modification, sorting, searching and filtering. Techs used on Back end: PostgreSQL, NodeJS (Express), JWT, AWS.Repository: https://github.com/Nekrocow/NoCountry-StayUp",
+      "highlights": [
+        "'Best Projects at No Country' award (2022). https://tinyurl.com/best-projects-award."
+      ]
+    },
+    {
+      "name": "Team Leader",
+      "startDate": "2022-09-01",
+      "endDate": "2022-12-01",
+      "summary": "Assisted teams in the development process of their projects. Scheduled and coordinated followup meetings. Facilitated communication between team members.",
+      "highlights": [
+        "Assisted 4 teams."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Henry",
+      "url": "https://www.soyhenry.com/",
+      "area": "Web development",
+      "studyType": "Bootcamp",
+      "startDate": "2022-01-17",
+      "endDate": "2022-06-28",
+      "courses": [
+        "Foundations (of programming)",
+        "Front-end",
+        "Back-End",
+        "Databases",
+        "Labs",
+        "Job preparation"
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "EF SET C2 english level Certificate",
+      "date": "2022-07-19",
+      "issuer": "EF SET",
+      "url": "https://www.efset.org/cert/Gifv2y"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Backend development",
+      "keywords": [
+        "NodeJS",
+        "Express",
+        "ReactJS",
+        "Redux"
+      ]
+    },
+    {
+      "name": "Database technologies",
+      "keywords": [
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "Mongoose"
+      ]
+    },
+    {
+      "name": "Frontend development",
+      "keywords": [
+        "HTML5",
+        "CSS3",
+        "ReactJS",
+        "Redux"
+      ]
+    },
+    {
+      "name": "Tools and workflow skills",
+      "keywords": [
+        "Git",
+        "Swagger",
+        "Scrum",
+        "Trello",
+        "Asana",
+        "Slack"
+      ]
+    },
+    {
+      "name": "Soft skills",
+      "keywords": [
+        "Analytical",
+        "Proactive",
+        "Accountability",
+        "Planning and organization",
+        "Resilience",
+        "Collaborative",
+        "Problem solving"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Profesional proficiency"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Portuguese",
+      "fluency": "Basic Reading and Speaking"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Pets",
+      "keywords": [
+        "Cats",
+        "Dogs"
+      ]
+    },
+    {
+      "name": "Srategy videogames",
+      "keywords": [
+        "StarCraft",
+        "Age of Empires II",
+        "Stellaris"
+      ]
+    },
+    {
+      "name": "Movies",
+      "keywords": [
+        "The Shawshank Redemption",
+        "At the Gates of Eternity",
+        "Whiplash",
+        "Groundhog Day"
+      ]
+    }
+  ],
+  "meta": {
+    "theme": "stackoverflow"
+  }
+}
