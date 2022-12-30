@@ -4,10 +4,7 @@ representación como número romano. La librería debe permitir versiones en min
 o mayúscula según un modificador que se recibe como parámetro.
 */
 
-
-// al número en decimal, lo chequeamos decrecientemente contra los posibles valores del diccionario romano
-// cuando se cumple, pusheamos la letra correspondiente y inputamos la cantidad al número que estamos transformando
-// siempre que el inputo > 0, hacemos recursión
+// Originalmente resolví este ejercicio usando recursión, pero entendí meditándolo me di cuenta que era más eficiente hacerlo con iteraciones.
 
 const { decimalToRomanUpper, decimalToRomanLower } = require('./romanizeDictionaries/decimalToRoman') // creamos dos diccionarios correspondientes para números romanos en mayúsculas y en minúsculas (ver archivo -^)
 

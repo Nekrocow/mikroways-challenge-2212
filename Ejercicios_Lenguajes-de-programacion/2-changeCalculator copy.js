@@ -30,4 +30,4 @@ const changeCalculator = (payment, price) => { // los argumentos que recibe la f
   return expectedBills // retornamos el array con los billetes necesarios para el vuelto
 }
 
-// NOTA: es posible también ofrecer una solución utilizando un objeto que devuelva las cantidades de cada billete como clave-valor —ej., para 3204, { 1000: 3, 200: 1, 2: 2 }—, pero que solo dejamos planteada sin desarrollar ya que el ejemplo daba a entender que el formato de respuesta esperado era utilizando un array.
+// NOTA: es posible también ofrecer una solución utilizando un objeto que devuelva las cantidades de cada billete como clave-valor —ej., para 3204, { 1000: 3, 200: 1, 2: 2 }—, pero que solo dejo planteada sin desarrollar ya que el ejemplo daba a entender que el formato de respuesta esperado era utilizando un array.
