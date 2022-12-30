@@ -33,16 +33,3 @@ const romanizeNumber = (input, shouldConvertToUpperCase = true) => { // pasamos 
   }
   return latinized // devolvemos el número final en romano
 }
-
-// romanizeNumber(-45, true)
-// romanizeNumber(0)
-// romanizeNumber(10000, true)
-// romanizeNumber(1, true)
-// romanizeNumber(2, false)
-// romanizeNumber(9)
-// romanizeNumber(62, false)
-// romanizeNumber(90, false)
-// romanizeNumber(95, true)
-// romanizeNumber(100, true)
-// romanizeNumber(4514, true)
-// romanizeNumber(4532, false)

@@ -27,11 +27,3 @@ const bracketBalanceValidator = (string) => {
   }
   return !openBrackets.length // finalmente, chequeamos si no quedaron corchetes "huérfanos" en la pila y damos la respuesta final
 }
-
-// bracketBalanceValidator("[][]") //  true      
-// bracketBalanceValidator("[[]]") //  true      
-// bracketBalanceValidator("[[[][]]]") //  true  
-// bracketBalanceValidator("]") //  false      
-// bracketBalanceValidator("][") // false        
-// bracketBalanceValidator("][][") // false      
-// bracketBalanceValidator("[][]][") // false    

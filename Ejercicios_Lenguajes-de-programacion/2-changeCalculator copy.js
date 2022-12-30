@@ -31,16 +31,3 @@ const changeCalculator = (payment, price) => { // los argumentos que recibe la f
 }
 
 // NOTA: es posible también ofrecer una solución utilizando un objeto que devuelva las cantidades de cada billete como clave-valor —ej., para 3204, { 1000: 3, 200: 1, 2: 2 }—, pero que solo dejamos planteada sin desarrollar ya que el ejemplo daba a entender que el formato de respuesta esperado era utilizando un array.
-
-// changeCalculator(100, 100) // [0]
-// changeCalculator(100, 75) // [20, 5]
-// changeCalculator(200, 55) // [100, 20, 5]
-// changeCalculator(1000, 442) // [500, 50, 5, 2, 1]
-// changeCalculator(500, 50) // [200, 200, 50]
-// changeCalculator(1889, 1) // [1000, 500, 200, 100, 50, 20, 10, 5, 2, 1]
-// changeCalculator(39, 1)
-// changeCalculator(8000, 50)
-
-// changeCalculator(-1, 75)
-// changeCalculator(50, -1)
-// changeCalculator(50, 75)
