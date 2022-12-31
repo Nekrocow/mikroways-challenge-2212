@@ -4,7 +4,7 @@
   "description": "Exercises for Mikroways' 2022 challenge",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --verbose --detectOpenHandles"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,15 @@
   "bugs": {
     "url": "https://github.com/Nekrocow/mikroways-challenge-2212/issues"
   },
-  "homepage": "https://github.com/Nekrocow/mikroways-challenge-2212#readme"
+  "homepage": "https://github.com/Nekrocow/mikroways-challenge-2212#readme",
+  "dependencies": {
+    "yaml": "^2.2.1"
+  },
+  "jest": {
+    "verbose": true,
+    "detectOpenHandles": true
+  },
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
 }
