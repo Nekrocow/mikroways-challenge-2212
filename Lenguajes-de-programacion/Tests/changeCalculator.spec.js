@@ -19,13 +19,13 @@ describe("changeCalculator", () => {
   it("should return [1000, 500, 200, 100, 50, 20, 10, 5, 2, 1] if called with (1889, 1)", () => {
     expect(changeCalculator(1889, 1)).toEqual([1000, 500, 200, 100, 50, 20, 10, 5, 2, 1])
   })
-  it("should return 'Please, enter valid amounts!' if called with payment < 1", () => {
+  it("should return an error message if called with payment < 1", () => {
     expect(changeCalculator(-4, 8)).toBe("Please, enter valid amounts!")
   })
-  it("should return 'Please, enter valid amounts!' if called with price < 1", () => {
+  it("should return an error message if called with price < 1", () => {
     expect(changeCalculator(5, -2)).toBe("Please, enter valid amounts!")
   })
-  it("should return 'Please, enter valid amounts!' if called with price > payment", () => {
+  it("should return an error message if called with price > payment", () => {
     expect(changeCalculator(5, 50)).toBe("Please, enter valid amounts!")
   })
 })

@@ -30,3 +30,5 @@ const romanizeNumber = (input, shouldConvertToUpperCase = true) => { // pasamos 
   }
   return latinized // devolvemos el número final en romano
 }
+
+module.exports = { romanizeNumber }
